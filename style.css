@@ -1,8 +1,17 @@
 html {
   font-size: 10px;
-  background: url('https://i.imgur.com/b9r5sEL.jpg') bottom center;
+  background-image: url('./background.jpg');
   background-size: cover;
 }
+
+mark {
+  background-color: azure;
+  color: blue;
+  font-size: 2em;
+  border-radius: 4px;
+  margin: 7px;
+}
+
 
 body,html {
   margin: 0;
