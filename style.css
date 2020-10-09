@@ -7,7 +7,7 @@ html {
 mark {
   background-color: azure;
   color: blue;
-  font-size: 2em;
+  font-size: 3em;
   border-radius: 4px;
   margin: 7px;
 }
@@ -57,4 +57,48 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+
+
+.button {
+  border-radius: 4px;
+  background-color: #ffc600;
+  background-blend-mode: lighten; 
+  border-color: black;
+  border-width: 4px;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 300px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
