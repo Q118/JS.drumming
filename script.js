@@ -42,3 +42,7 @@ const screen = document.getElementById("screen");
     
     // mobile devices 
     screen.addEventListener("touchstart", stopLoop);
+    
+
+
+
