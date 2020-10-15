@@ -110,6 +110,7 @@ kbd {
   color: black;
   background-color: pink;
   min-height: 100px;
+  border: #ffc600 7px groove; 
 }
 .keyLabel {
   text-align: center;
@@ -120,4 +121,5 @@ kbd {
   background-color: rgb(80, 76, 76);
   border: #ffc600 7px groove; 
   padding: 5px;
+  width: min-content;
 }

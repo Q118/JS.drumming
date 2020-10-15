@@ -38,11 +38,18 @@ keys.forEach((key) =>
 window.addEventListener("keydown", playSound);
 
 const screen = document.getElementById("screen");
-    screen.addEventListener("mousedown", stopLoop);
+screen.addEventListener("mousedown", stopLoop);
     
-    // mobile devices 
-    screen.addEventListener("touchstart", stopLoop);
+// mobile devices 
+screen.addEventListener("touchstart", stopLoop);
     
+// TODO: create functionality to clear the input with every keydown
 
 
+  function clearInput() {
+      const input = document.getElementById("keyboard");
+      input.value="";
+  } 
 
+
+  window.addEventListener("keydown", clearInput);
