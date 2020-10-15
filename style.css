@@ -107,6 +107,17 @@ kbd {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* align-content: center; */
+  color: black;
   background-color: pink;
+  min-height: 100px;
+}
+.keyLabel {
+  text-align: center;
+}
+
+.mark2 {
+  color: lightpink;
+  background-color: rgb(80, 76, 76);
+  border: #ffc600 7px groove; 
+  padding: 5px;
 }
